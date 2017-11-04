@@ -1,0 +1,3 @@
+def anotherMasterpieceBy( ):
+    print ("another masterpiece by", input("enter your name: "))
+anotherMasterpieceBy( )
