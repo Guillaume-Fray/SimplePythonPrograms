@@ -1,0 +1,12 @@
+def swap(x,y):
+    t = x; x = y; y = t
+    return (x,y)
+    
+x = int(input("x: "))
+y = int(input("y: "))
+print ("x = ",x)
+print ("y = “,y)
+
+x,y = swap(x,y)
+print ("x = ",x)
+print ("y = ",y)
