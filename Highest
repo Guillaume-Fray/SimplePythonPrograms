@@ -1,0 +1,8 @@
+def highest(x):
+    greatest = x[0]
+    for i in range (len(x)):
+        if (x[i]>=greatest):
+            greatest = x[i]
+        else:
+            greatest = greatest
+    return (greatest)
