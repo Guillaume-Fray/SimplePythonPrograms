@@ -1,0 +1,5 @@
+def addThemAll(x):
+    total = 0
+    for i in x:
+        total += i
+    return (total)
