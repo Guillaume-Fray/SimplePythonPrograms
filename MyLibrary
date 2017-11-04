@@ -1,1 +1,242 @@
+import math
+
+# 0001: DISTANCE,           Gives you the distance between 2 points (2D)
+
+def distancebetween(x1,y1,x2,y2):
+    distance = math.sqrt((x1-x2)**2 + (y1-y2)**2)
+    return (distance)
+
+# END 0001
+
+
+
+
+
+
+
+
+# 0002: LEAP YEAR,           Tells you if the year is a leap year
+
+def Leapyear(y):
+    y = ((y%4==0 and y%100!=0)or(y%400==0))
+    return (y)
+
+# END 0002
+
+
+
+
+
+
+
+
+
+# 0003: DAYS,           Gives you the number of days in any month for any year
+
+
+def Leapyear(y):
+    y = ((y%4==0 and y%100!=0)or(y%400==0))
+    return (y)
+
+def daysin(m):
+    if 1<= m <=12:
+        if m in [1,3,5,7,8,10,12]:
+            days = 31
+        elif m in [4,6,9,11]:
+            days = 30
+        elif (m==2 and Leapyear(y)):
+            days = 29
+        else:
+            days = 28
+        return days
+    else:
+        print ("enter a correct month number!!")
+        days = 0
+        return days
+
+# END 0003
+
+
+
+
+
+
+
+
+
+# 0004: VALID DATE,           Tells you if the date is valid or not
+
+def Leapyear(y):
+    y = ((y%4==0 and y%100!=0)or(y%400==0))
+    return (y)
+
+
+def daysin(m):
+    if 1<= m <=12:
+        if m in [1,3,5,7,8,10,12]:
+            days = 31
+        elif m in [4,6,9,11]:
+            days = 30
+        elif (m==2 and Leapyear(y)):
+            days = 29
+        else:
+            days = 28
+        return days
+    else:
+        print ("enter a correct month number!!")
+        days = 0
+        return days
+
+def validdate(y,m,d):
+    date = (0< d <= daysin(m))
+    return date
+
+y = int(input("enter the year: "))
+m = int(input("enter the month: "))
+d = int(input("enter the day: "))
+
+if validdate(y,m,d):
+    print ("The date is valid")
+else:
+    print("Invalid date!!!")
+
+
+# END 0004
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 0005: SWAP VALUES,           Swap 2 values
+
+def swap(x,y):
+    t = x; x = y; y = t
+    return (x,y)
+
+# END 0005
+
+
+
+
+
+
+
+
+
+
+
+# 0006: ADD ALL VALUES,           Add all values of the list x
+
+def addThemAll(x):
+    total = 0
+    for i in x:
+        total += i
+    return (total)
+
+# END 0006
+
+
+
+
+
+
+
+
+
+
+# 0007: LOWEST,                   Returns the smallest value
+
+def lowest(x):
+    small = x[0]
+    for i in range (len(x)):
+        if (x[i]<=small):
+            small = x[i]
+        else:
+            small = small
+    return (small)
+
+# END 0007
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 0008: HIGHEST,                   Returns the highest value
+
+def highest(x):
+    greatest = x[0]
+    for i in range (len(x)):
+        if (x[i]>=greatest):
+            greatest = x[i]
+        else:
+            greatest = greatest
+    return (greatest)
+
+# END 0008
+
+
+
+
+
+
+
+
+
+
+# 0009: AVERAGE,                   Returns the average of a series of values in a list
+
+def average(x):
+    result = 0
+    for i in x :
+        result += i
+    result = result/len(x)
+    return (result)
+
+# END 0009
+
+
+
+
+
+
+
+
+
+# 0010: CLASH,                   Returns TRUE when 2 events clash 
+
+def clash(hr1,dur1,hr2,dur2):
+    possible = (hr1 + dur1 < hr2) or (hr2 + dur2 < hr1)
+    return (not possible)
+
+# END 0010
+
+
+
+
+
+
+
+
+
+
+
+
+
 
