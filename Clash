@@ -1,0 +1,12 @@
+def clash(hr1,dur1,hr2,dur2):
+    possible = (hr1 + dur1 < hr2) or (hr2 + dur2 < hr1)
+    return (not possible)
+
+hr1 = int(input("enter hr1: "))
+dur1 = int(input("enter dur1: "))
+hr2 = int(input("enter hr2: "))
+dur2 = int(input("enter dur2: "))
+if (not clash(hr1,dur1,hr2,dur2)):
+    print("all good")
+else:
+    print("Clash!!")
