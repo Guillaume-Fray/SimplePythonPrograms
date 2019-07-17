@@ -1,0 +1,32 @@
+#!/bin/python3
+
+import os
+import sys
+from textwrap import wrap
+#
+# Complete the timeConversion function below.
+#
+def timeConversion(s):
+        hours = s.split(':')[0]
+        mins = s.split(':')[1]
+        secs = wrap(s.split(':')[2], 2)[0]
+
+        if s.split(':')[2][2] == 'P' and hours != '12':
+            hours = str(int(hours)+12)
+        if hours == '12' and s.split(':')[2][2] == 'A':
+            hours = '00'
+
+        return (hours+':'+mins+':'+secs)
+
+
+if __name__ == '__main__':
+    f = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = timeConversion(s)
+
+    f.write(result + '\n')
+
+    f.close()
+
