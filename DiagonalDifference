@@ -1,0 +1,39 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the diagonalDifference function below.
+def diagonalDifference(arr):
+    n = len(arr)
+    diff = 0
+    diag1 = 0
+    diag2 = 0
+    for i in range (n):
+        for j in range (n):
+            if (-100<=arr[i][j]<=100 and i == j):
+                diag1 += arr[i][j]
+            if (-100<=arr[i][j]<=100 and j == n-1-i):   
+                diag2 += arr[i][j]
+    diff = (diag1-diag2)
+    return abs(diff)
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input())
+
+    arr = []
+
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+
+    result = diagonalDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
