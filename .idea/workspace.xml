@@ -7,6 +7,8 @@
       <change afterPath="$PROJECT_DIR$/../create-own-python-robotics-simulator-master/planning/a-star.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../create-own-python-robotics-simulator-master/planning/car60_40.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../create-own-python-robotics-simulator-master/planning/gridworld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem Statements/CompanyLogo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PilingUp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem Statements/CompanyLogo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +59,7 @@
       <list>
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/PilingUp.py" />
+        <option value="$PROJECT_DIR$/Problem Statements/CompanyLogo.py" />
       </list>
     </option>
   </component>
@@ -66,6 +81,11 @@
             <path>
               <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackerrank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem Statements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,12 +152,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558947264056</updated>
       <workItem from="1558947266266" duration="5174000" />
-      <workItem from="1624960530513" duration="844000" />
+      <workItem from="1624960530513" duration="1180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6018000" />
+    <option name="totallyTimeSpent" value="6354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="80" width="1497" height="947" extended-state="0" />
@@ -173,7 +193,17 @@
     <entry file="file://$PROJECT_DIR$/PilingUp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problem Statements/CompanyLogo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
